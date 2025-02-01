@@ -9,7 +9,7 @@ const { auth, jwt_password } = require("./auth");
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://kunalbhalerao789:kunal%400987654321@cluster01.hm8ab.mongodb.net/my-todo-app"
+  ""
 );
 
 app.post("/signup", async (req, res) => {
